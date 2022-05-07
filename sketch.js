@@ -1,13 +1,12 @@
 let phd;
 let bg;
-let mouth;
 
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
   phd = loadImage('phd.gif');
   bg = loadImage('plaster.jpg');
-  mouth = loadImage('mouth.gif')
+
   
 }
 
@@ -21,7 +20,6 @@ function draw() {
     image(phd, 70 + x, 150, 150, 200);
   }
   
-  scale(0.5);
-  image(mouth, mouseX, mouseY);
+
   
 }
